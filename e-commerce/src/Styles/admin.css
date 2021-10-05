@@ -1,0 +1,51 @@
+th, td {
+    padding: 15px;
+    border: 1px solid rgba(141, 141, 141, 0.3);
+}
+.user-form.admin-form {
+    box-shadow: none;
+    border-radius: 0px;
+    width: 80%;
+    margin: auto;
+}
+.user-form.admin-form > input {
+    padding: 10px 2px;
+}
+.user-form.admin-form > button {
+    min-width: 80px;
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0;
+    background-color: green;
+}
+
+.user-form.admin-form > button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.platform_inputs_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.platform_inputs_container div:first-child {
+    padding-left: 0px;
+}
+.platform_inputs_container > div {
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-card.container-card--admin {
+        width: 100%;
+        max-width: 100%;
+    }
+    .user-form.admin-form {
+        width: 100%;
+        max-width: 100%;
+    }
+}

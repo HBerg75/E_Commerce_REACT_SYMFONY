@@ -1,0 +1,165 @@
+.title_accueil{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+/* .carousel_accueil{
+    max-width: 62.5%;
+} */
+
+.carousel-status{
+    display: none;
+}
+
+/* .control-arrow{
+    display: none;
+} */
+
+.thumbs-wrapper{
+    display: none;
+}
+
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 67.5%;
+    margin: auto;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    width: 225px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 15px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .img-card{
+      width: 100%;
+      max-height: 250px;
+      border-radius: 5px 5px 0 0;
+      cursor: pointer;
+  }
+
+  .submit_button {
+    background-color: red; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .submit_button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-size: 102.5%;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .section-border-bottom {
+    padding-bottom: 20px;
+    border-bottom: 2px rgba(15, 15, 15, 0.1) solid;
+  }
+
+  .slide .carousel_element {
+    height: 700px;
+    max-width: 700px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    margin: auto;
+  } 
+
+  .container.carousel_item_bar .card__detail {
+    display: none;
+    z-index: 100;
+    background-color: rgba(43, 43, 43, 0.9);
+    color: white;
+    position: absolute;
+    max-width: 100%;
+    word-break: break-all;
+  }
+  .container.carousel_item_bar:hover .card__detail {
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0px;
+    line-height: 30px;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .container.carousel_item_bar{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 30px;
+    max-width: 700px;
+    width: 700px;
+    background-color: white;
+    padding-top: 10px;
+  }
+
+  .container.carousel_item_bar .submit_button {
+    width: 100%;
+  }
+
+  .container.carousel_item_bar .price-container {
+    position: absolute;
+    right: 3px;
+  }
+
+  .logo-platform.carousel_logo.carousel_logo_fix {
+    width: 30px;
+    padding-left: 10px;
+}
+.logo-platform.carousel_logo.carousel_logo_fix:last-child {
+    width: 45px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 740px) {
+  .slide .carousel_element {
+    max-width: 100%;
+  }
+  .container.carousel_item_bar {
+    display: block;
+  }
+  .container.carousel_item_bar .submit_button.panier_button{
+    width: 200px;
+  }
+  .title-container {
+    text-align: left;
+  }
+  .container.carousel_item_bar .price-container {
+    position: relative;
+    text-align: left;
+    display: block;
+  }
+
+  .container.carousel_item_bar:hover .card__detail {
+    left: 15%;
+    width: 300px;
+  }
+}

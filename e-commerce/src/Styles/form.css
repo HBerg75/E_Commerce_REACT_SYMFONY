@@ -1,0 +1,139 @@
+.user-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .user-form-container2{
+      display: flex;
+      margin: auto;
+      width: 320px;
+        flex-wrap: wrap;
+  }
+
+  .container-forms{
+    max-width: 1000px;
+    min-width: 250px;
+    margin: auto;
+  }
+
+  .form-center{
+    max-width: 500px;
+    min-width: 250px;
+    margin: auto;
+  }
+
+  .form-center.form-center2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  .user-form {
+    float: none;
+    padding: 25px;
+    margin: 50px;
+    max-width: 500px;
+    min-width: 150px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: whitesmoke;
+  }
+
+  .user-form.user-form--small {
+      width: 100%;
+      padding: 15px;
+      margin: 20px 10px;
+  }
+
+  .user-form > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 2%;
+    color: #222;
+    letter-spacing: 2px;
+  }
+  
+  .user-form > p {
+    color: red;
+  }
+  
+  .user-form > p.success {
+    color: green;
+  }
+  
+  .user-form > p#success {
+    color: green;
+  }
+  
+  .user-form #error, .user-form #success, .user-form #errorPassword, .user-form #errorEmail ,.user-form #successPassword, .user-form #successEmail {
+    display: none;
+  }
+  
+  .user-form #error.active, .user-form #success.active, .user-form #errorPassword.active, .user-form #errorEmail.active ,.user-form #successPassword.active, .user-form #successEmail.active {
+    display: block;
+  }
+  
+  .info {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  .user-form > label {
+    margin-bottom: 0.5em;
+    color: #444;
+    font-weight: lighter;
+    width: 100%;
+  }
+  
+  .user-form > input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 30px;
+    border-radius: 5%;
+    border: 1px solid #d6d1d5;
+    margin-top: 2%;
+  }
+  
+  .user-form > button {
+    min-width: 100%;
+    cursor: pointer;
+    margin-top: 5%;
+    padding: 5%;
+    border: none;
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+  }
+  .user-form > button:hover {
+    background-color: #4A4E69;
+    color: whitesmoke;
+  }
+
+  .user-form-container.user-form-container--justifyCenter {
+    justify-content: center;
+  }
+  .user-form.user-form--smallHeight {
+    height: 250px;
+  }
+
+  @media screen and (max-width: 1020px) {
+    .form-center.form-center2 {
+        width: 100%;
+        justify-content: center;
+    }
+    .user-form {
+        width: 100%;
+        margin: 10px;
+    }
+    .user-form-container2 {
+        width: 100%;
+        justify-content: center;
+    }
+  }

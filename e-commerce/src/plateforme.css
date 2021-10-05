@@ -1,0 +1,11 @@
+.title_plateforme{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#switch-icon{
+    width: 25px;
+    padding-left: 10px;
+}

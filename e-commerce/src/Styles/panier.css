@@ -1,0 +1,34 @@
+.title_panier{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+.card.card--basket {
+    width: 100%;
+    display: flex;
+}
+
+.card.card--basket .img-card {
+    width: 250px;
+}
+
+.card.card--basket .img-container {
+    width: 250px;
+}
+
+.basket_content {
+    max-width: 630px;
+    margin: 10px 25px;
+}
+
+.basket_content__noArcticle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.basket_content__price {
+    font-size: 23px;
+    text-align: center;
+}

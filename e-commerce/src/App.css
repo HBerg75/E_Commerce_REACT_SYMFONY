@@ -1,0 +1,19 @@
+@import "./Styles/navbar.css";
+
+@import "./Styles/accueil.css";
+
+@import "./Styles/panier.css";
+
+@import "./Styles/register.css";
+
+@import "./Styles/connexion.css";
+
+@import "./Styles/login.css";
+
+@import "./Styles/tous_les_jeux.css";
+
+@import "./Styles/categorie.css";
+
+@import "./Styles/plateforme.css";
+
+@import "./Styles/admin.css";

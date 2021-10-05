@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.header_title{
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+.main_title {
+  box-sizing: border-box;
+  width: 100%;
+text-align: center;
+padding: 10px;
+text-transform: uppercase;
+color: orangered;
+font-size: 60px;
+word-wrap: break-word;
+text-shadow: 0px 1px 0px black;
+}
+
+.alert.alert--danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  box-shadow: 0px 0px 10px #b8666d,
+              0px 0px 30px #b8666d,
+              0px 0px 40px #b8666d;
+}
+
+.alert.alert--success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  border: 1px solid #6ef38d;
+  box-shadow: 0px 0px 10px #49af61,
+              0px 0px 30px #49af61,
+              0px 0px 40px #49af61;
+}
+
+.alert {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  z-index: 10000;
+  display: none;
+  position: fixed;
+  width: 70%;
+  text-align: center;
+  top: 11%;
+  right: 15%;
+  padding: .75rem 1.2rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert .alert__suppression {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  padding-left: 10px;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+}
+
+.alert.active {
+  display: block;
+  animation: fadeIn ease 0.3s;
+  -webkit-animation: fadeIn ease 0.3s;
+  -moz-animation: fadeIn ease 0.3s;
+  -o-animation: fadeIn ease 0.3s;
+  -ms-animation: fadeIn ease 0.3s;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
